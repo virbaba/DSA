@@ -15,7 +15,7 @@ public class Solution{
                 if (arr[i] + arr[j] == s) {
                     int[] pair = {Math.min(arr[i], arr[j]), Math.max(arr[i], arr[j])};
                     pairs.add(pair);
-                }ny
+                }
             }
         }
 
